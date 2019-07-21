@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+    height: 80px;
+}
+
+.content{
+      font-size: 20px;
+      margin: 40px;
+}
+
+.content h1{
+    font-size: 30px;
+    float: left;
+}
+
+
+.nav{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.button{
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+  position: absolute;
+}
+
+footer{
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666;
+  color: white;
+  text-align: left;
+    height: 140px;
+}
+
+section{
+    max-width: max-content;
+    margin: auto;
+    padding-top: 40px;
+}
+
