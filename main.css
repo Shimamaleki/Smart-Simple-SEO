@@ -183,7 +183,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  
+  margin: 20px;
 }
 
 td, th {
@@ -199,4 +199,51 @@ tr:nth-child(even) {
 
 #reportF{
   text-align: center;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#saveBtn{
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+#printBtn{
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+
+}
+
+.circle{
+  width:200px; 
+  height:200px; 
+  background-color:gray; 
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30;
+}
+
+.midCircle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8em;
+}
+
+#freeBtn{
+  background-color: black;
+  color: white;
+  font-size: 18px;
 }
