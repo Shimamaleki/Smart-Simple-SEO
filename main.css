@@ -19,17 +19,24 @@ header {
   max-width: 100%;
 }
 
-.content{
+.contentH{
       font-size: 20px;
       margin: 30px;
 }
 
-.content h1{
+.contentH h1{
     font-size: 40px;
     float: left;
     margin: 0;
 }
 
+.content{
+  max-width: 500px;
+  margin: auto;
+}
+.content h4{
+  text-align: center;
+}
 .main{
   max-width: max-content;
   margin: auto;
@@ -188,4 +195,8 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+#reportF{
+  text-align: center;
 }
